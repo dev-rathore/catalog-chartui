@@ -36,8 +36,6 @@ const Dashboard: React.FC = () => {
     }
   ];
 
-  const maxPrice = Math.max(...sampleData.map(d => d.price))
-  const minPrice = Math.min(...sampleData.map(d => d.price))
   const currentPrice = sampleData[sampleData.length - 1].price
   const startPrice = sampleData[0].price
   const priceChange = currentPrice - startPrice

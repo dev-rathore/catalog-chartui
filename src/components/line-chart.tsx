@@ -74,6 +74,8 @@ const crosshair = (
   yTooltip.current.style.top = `${y - 20}px`;
   yTooltip.current.style.left = `${right - 20}px`;
   yTooltip.current.innerText = `${(93000 - y * 200).toLocaleString()}`;
+
+  console.log(xTooltip);
 }
 
 const options = {
